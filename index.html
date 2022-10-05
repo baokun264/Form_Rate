@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="content  ">
+        <div class="main-content ">
+          <div class="wrapper-circle">
+            <img class="img-start" src="./images/icon-star.svg" alt="icon start" width="15" height="15">
+          </div>
+          <h2 class="head-title">How did we do ?</h2>
+          <p class="text">Please let us know how we did with your support request. All feedback is appreciated 
+            to help us improve our offering!
+          </p>
+        </div>
+        <div class="flexStart "  >
+          <button class="btnStart" value="1">1</button>
+          <button class="btnStart" value="2">2</button>
+          <button class="btnStart" value="3">3</button>
+          <button class="btnStart" value="4">4</button>
+          <button class="btnStart" value="5">5</button>
+        </div>
+        <button class="btn-submit" style="vertical-align:middle"><span>SUBMIT</span></button>
+      </div>
+      <div class="form-thanks hide">
+        <div class="main-content-2">
+          <img class="img-thank" src="./images/illustration-thank-you.svg" alt="thank you image" width="170px" height="110px"/>
+          <p class="text-muted"> </p>
+          <h2>Thank you !</h2>
+          <p class="text-thank">We appreciate you taking the time to give a rating. If you ever need more support, 
+            don’t hesitate to get in touch!</p>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <script src="form.js"></script>
+</body>
+</html>
